@@ -1,0 +1,40 @@
+.display-flex {
+  display: flex;
+  justify-content: center;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(9, 11, 101);
+  flex-direction: row;
+  color: white;
+
+}
+
+main {
+  background-color: rgb(9, 11, 101);
+  color: white;
+
+}
+
+footer {
+  background-color: rgb(149, 137, 137);
+}
+
+h2 {
+  display: flex;
+  gap: 3rem;
+}
+
+.align-content {
+  align-content: center;
+
+}
+
+.header-button {
+  background-color: blue;
+  border: 0;
+  border-radius: 10px;
+}
